@@ -1,0 +1,75 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(240, 240, 240, 0.7); 
+    z-index: 10;
+  }
+  
+  nav .navbar-nav .nav-link {
+    color: rgb(8, 8, 8) !important;
+  }
+  
+  nav .navbar-nav .nav-link:hover {
+    color: #045c0b !important;
+  }
+  .navbar-brand{
+    color: #03740c;
+  }
+.parallax-header{
+    background: #000;
+    background: url(./images/senior-woman-transplanting-some-flowers-pot-gardening-concept_310913-193.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content{
+    padding: 130px 0 180px 0;
+}
+.content{
+    margin-top: -80px;
+    background: #fff;
+    box-shadow: 0 0 20px -6px rgba(0,0,0,0.2);
+}
+
+.content .left{
+    padding-top: 20px;
+}
+.content .right{
+    padding: 0;
+}
+.text-justify{
+    padding: 10px;
+    text-align: justify;
+}
+.content .bottom{
+    background: #f14e4e;
+    padding: 30px;
+}
+
+.parallax {
+    background-image: url('./images/gardener-plants-flowers-garden-closeup-garden-care-gardening-concept_627378-9555.avif');
+    height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+ 
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
